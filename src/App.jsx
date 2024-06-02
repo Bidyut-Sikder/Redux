@@ -1,55 +1,27 @@
-import React, {useState} from "react";
-import {BrowserRouter, Route, Routes} from "react-router-dom";
-import HomePage from "./pages/HomePage";
-import RegistrationPage from "./pages/RegistrationPage";
-import NavBar from "./layout/NavBar";
-import Counter from "./components/Counter";
-import TotalCount from "./components/TotalCount";
+import React from 'react';
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import TodoList from './components/TodoList';
+import Footer from './components/Footer';
+import { Provider } from 'react-redux';
+import store from './redux/store';
 
-import {Provider} from "react-redux";
+const App = () => {
+   return (
+      <Provider store={store}>
+         <div className="grid place-items-center bg-blue-100 h-screen px-6 font-sans">
+            <Navbar />
+            <div className="w-full max-w-3xl shadow-lg rounded-lg p-6 bg-white">
+               <Header />
+               <TodoList />
+               <Footer />
+            </div>
+         </div>
+      </Provider>
+   );
+};
 
-import NewCounter from "./reduxx/counter/NewCounter";
-import store from "./reduxx/store";
-import AnotherCounter from "./reduxx/anotherCounter/AnotherCounter";
-import { configureStore, createSlice } from "@reduxjs/toolkit";
-import VariableCount from "./reduxx/variableCount/VariableCount";
-import Assignment from "./reduxx/assignment2/Assignment";
-
-export default function App() {
-  return (
-    <Provider store={store}>
-      {/* <NewCounter />
-      <AnotherCounter />
-
-
-<VariableCount />
-
-<VariableCount daynamic /> */}
-
-
-
-<Assignment />
-
-    </Provider>
-  );
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+export default App;
 
 
 

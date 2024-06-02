@@ -1,0 +1,36 @@
+{
+  "todos": [
+    {
+      "id": 1,
+      "text": "Learn Vanilla JavaScript",
+      "completed": true,
+      "color": "green"
+    },
+    {
+      "text": "gdsdsfdsfsdafdsafadsf",
+      "completed": false,
+      "id": 2,
+      "color": "green"
+    },
+    {
+      "text": "fdsafds",
+      "completed": false,
+      "id": 3
+    },
+    {
+      "text": "f",
+      "completed": false,
+      "id": 6
+    },
+    {
+      "text": "f",
+      "completed": false,
+      "id": 9
+    },
+    {
+      "text": "ds",
+      "completed": false,
+      "id": 10
+    }
+  ]
+}
