@@ -7,30 +7,32 @@
       "color": "green"
     },
     {
-      "text": "gdsdsfdsfsdafdsafadsf",
+      "text": "fffd",
       "completed": false,
-      "id": 2,
-      "color": "green"
+      "id": 2
     },
     {
-      "text": "fdsafds",
+      "text": "df",
       "completed": false,
       "id": 3
     },
     {
-      "text": "f",
+      "text": "sdfdsa",
       "completed": false,
-      "id": 6
+      "id": 4,
+      "color": "yellow"
     },
     {
-      "text": "f",
+      "text": "fds",
       "completed": false,
-      "id": 9
+      "id": 5,
+      "color": "green"
     },
     {
-      "text": "ds",
+      "text": "af",
       "completed": false,
-      "id": 10
+      "id": 6,
+      "color": "green"
     }
   ]
 }

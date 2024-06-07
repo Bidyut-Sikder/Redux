@@ -14,7 +14,8 @@ export const UpdateStatus = (todoId, currentStatus) => {
 
     return async (dispatch) => {
         const res = await fetch(`http://localhost:9000/todos/${todoId}`, {
-            method: "PATCH",
+
+             method: "PATCH",
             body: JSON.stringify({
                 id: todoId,
                 completed: !currentStatus
