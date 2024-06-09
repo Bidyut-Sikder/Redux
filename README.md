@@ -1,7 +1,6 @@
 
 # Features
 
-## redux thunk
-## Redux-toolkit (rtk)
+## A project using (Redux-toolkit) or RTK
 
 
