@@ -1,28 +1,16 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Home from "./pages/Home";
-import Video from "./pages/Video";
-import Navbar from "./components/navbar/Navbar";
-import Footer from "./components/Footer";
+import Balance from "./components/Balance";
+import Form from "./components/Form";
+import Layout from "./components/Layout";
+import Transactions from "./components/Transactions/Transactions";
 
 function App() {
     return (
-
-        
-            <BrowserRouter>
-                <Navbar />
-                <Routes>
-                    <Route path="/" element={<Home />} />
-                    <Route path="/videos/:id" element={<Video />} />
-                </Routes>
-
-                <Footer />
-            </BrowserRouter>
-
-
-
-
+        <Layout>
+            <Balance />
+            <Form />
+            <Transactions />
+        </Layout>
     );
-    //return <Home />;
 }
 
 export default App;
