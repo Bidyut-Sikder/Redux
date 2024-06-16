@@ -1,8 +1,9 @@
 import { configureStore } from "@reduxjs/toolkit";
-import transactionReducer from "../feature/transaction/transactionSlice";
+import { apiSlice } from "../feature/api/apiSlice";
 
 export const store = configureStore({
     reducer: {
-        transaction:transactionReducer
+        [apiSlice.reducerPath]: apiSlice.reducer
     },
+    middleware: (getDefaultMiddleware) => getDefaultMiddleware().concat(apiSlice.middleware)
 });

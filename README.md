@@ -1,7 +1,7 @@
 
 # Features
 
-## this is a project using readux-toolkit
+## This project using Redux ToolKit Query (RTK Query)
 
 ### use npm install 
 ### use npm start
