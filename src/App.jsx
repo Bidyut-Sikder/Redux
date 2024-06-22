@@ -1,24 +1,30 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Footer from "./components/Footer";
-import Navigation from "./components/Navigation";
-import Add from "./components/pages/Add";
-import Edit from "./components/pages/Edit";
-import Home from "./components/pages/Home";
-import Video from "./components/pages/Video";
+import Conversation from "./pages/Conversation";
+import Inbox from "./pages/Inbox";
+import Login from "./pages/Login";
+import Register from "./pages/Register";
+import { useAuthCheck } from "./hooks/useAuthCheck";
+import PrivateRoute from "./routes/PrivateRoute";
+import PublicRoute from "./routes/PublicRoute";
 
 function App() {
-    return (
+
+    const authCheck = useAuthCheck()
+
+
+    return !authCheck ? <div>Checking Authentication...</div> :
+
         <Router>
-            <Navigation />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/videos/:videoId" element={<Video />} />
-                <Route path="/videos/add" element={<Add />} />
-                <Route path="/videos/edit/:videoId" element={<Edit />} />
+                <Route path="/" element={<PublicRoute><Login /></PublicRoute>} />
+                {/* <Route path="/register" element={<Register />} /> */}
+                <Route path="/register" element={<PublicRoute><Register /></PublicRoute>} />
+                <Route path="/inbox" element={<PrivateRoute><Conversation /></PrivateRoute>} />
+                <Route path="/inbox/:id" element={<PrivateRoute><Inbox /></PrivateRoute>} />
             </Routes>
-            <Footer />
         </Router>
-    );
+
 }
 
 export default App;
+

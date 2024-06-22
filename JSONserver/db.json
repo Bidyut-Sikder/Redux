@@ -1,70 +1,460 @@
 {
-  "videos": [
+  "users": [
     {
-      "id": 1,
-      "title": "যে ১০ টি ভুল বিগিনার রিয়্যাক্ট ডেভেলপাররা করে থাকেন react",
-      "description": "আপনারা যারা বিগিনার হিসেবে রিয়্যাক্ট জেস নিয়ে কাজ করা শুরু করেছেন, তারা রিয়্যাক্ট এর বেশ কিছু কনসেপ্ট ঠিক মতো আয়ত্ত না করতে পারার কারণে বিচিত্র কিছু সমস্যার সম্মুখীন হন এবং শেষ পর্যন্ত বুঝতে না পেরে হতাশ হয়ে পড়েন। তাদের জন্যই এই ভিডিওটি। এই ভিডিওতে আমি এমন ১০টি সমস্যার কথা তুলে ধরেছি যেগুলো বিগিনার হিসেবে আপনারা অহরহ সম্মুখীন হবেন। আশা করি ভিডিওটি দেখলে আপনাদের এই সমস্যাগুলো নিয়ে আর কনফিউশন থাকবেনা।",
-      "author": "Learn with Sumit",
-      "date": "May 10, 2022",
-      "duration": "10:12",
-      "views": "2.5k",
-      "link": "https://www.youtube-nocookie.com/embed/6O4s7v28nlw",
-      "thumbnail": "https://i3.ytimg.com/vi/6O4s7v28nlw/maxresdefault.jpg"
+      "email": "sumit@learnwithsumit.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "Sumit Saha",
+      "id": 1
     },
     {
-      "id": 2,
-      "title": "VS Code Snippets - Boost your productivity with User Snippets code",
-      "description": "আমরা যখন Visual Studio Code Editor এ কাজ করি তখন অহরহ ব্যবহৃত কোড ব্লক গুলো আমাদের কে বারবার টাইপ করতে হয় এবং সামগ্রিকভাবে চিন্তা করলে এরকম ছোট ছোট ম্যনুয়াল কাজ আমাদের productivity অনেকাংশেই কমিয়ে দেয়। VS Code এর বিল্ট ইন ইউজার স্নিপেট ফিচারের মাধ্যমে আমরা কমন কাজগুলো স্নিপেট আকারে সাজিয়ে রেখে দিতে পারি এবং শর্টকাট কমান্ডের মাধ্যমে বড় বড় কোড ব্লক গুলো নিয়ে আসতে পারি। এই ভিডিওতে আপনারা এটাই জানতে পারবেন যে কিভাবে আমরা Visual Studio Code Editor এ কাস্টম স্নিপেট লিখতে পারি।",
-      "author": "Learn with Sumit",
-      "date": "April 25, 2022",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/N-U6AVcIPy4",
-      "thumbnail": "https://i3.ytimg.com/vi/N-U6AVcIPy4/maxresdefault.jpg"
+      "email": "akash@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Akash Ahmed",
+      "id": 2
     },
     {
-      "id": 3,
-      "title": "Tailwind CSS 3 tutorial - Upgrade to Tailwind 3 | Tailwind CSS Bangla Tutorial",
-      "description": "Tailwind CSS v3.0 came with incredible performance gains, huge workflow improvements, and a seriously ridiculous number of new features. In this tutorial - I have tried to explain different new features of Tailwind CSS version 3, how to install tailwind css 3, how to upgrade from tailwind v2 to v3 etc.",
-      "author": "Learn with Sumit",
-      "date": "March 11, 2022",
-      "duration": "10:12",
-      "views": "2.3k",
-      "link": "https://www.youtube-nocookie.com/embed/4M7D3O2XX4o",
-      "thumbnail": "https://i3.ytimg.com/vi/4M7D3O2XX4o/maxresdefault.jpg"
+      "email": "bidyutsikder420@gmail.com",
+      "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+      "name": "bidyut",
+      "id": 3
     },
     {
-      "id": 4,
-      "title": "Debounce Function in JavaScript - JavaScript Job Interview question",
-      "description": "In this video, I have explained about the debounce function in JavaScript. This is a common question interviewers ask at Job Interviews. If you watch this video carefully, you will understand what is debounce and how to handle it with custom debounce function.",
-      "author": "Learn with Sumit",
-      "date": "Jan 06, 2022",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/dD9O8DnIBj4",
-      "thumbnail": "https://i3.ytimg.com/vi/dD9O8DnIBj4/maxresdefault.jpg"
+      "email": "bidyutsikder2001@gmail.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "sikder",
+      "id": 4
     },
     {
-      "id": 5,
-      "title": "SASS Tutorial in English - Overview of SASS  bdyut",
-      "description": "In this video, I have given a high level overview of popular CSS Pre-processor SASS which helps us managing our styles at scale. If you have a basic understanding of CSS & JavaScript, this 10 mins SASS Tutorial will help you getting started with SASS.",
-      "author": "Learn with summit",
-      "date": "Nov 22, 2021",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/4tV1Mfi4fMA",
-      "thumbnail": "https://i3.ytimg.com/vi/4tV1Mfi4fMA/maxresdefault.jpg"
+      "email": "sumits@learnwithsumit.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "Sumit Saha",
+      "id": 5
     },
     {
-      "id": 6,
-      "title": "React Router DOM v6 Bangla Tutorial - Breaking Changes - React Router 6 vs 88",
-      "description": "In this React Router DOM v6 Bangla tutorial, you will learn how to install react router dom 6, what are the breaking changes in react router 6, difference between react router 6 vs 6, how to upgrade from react router v5 to react router v6. ",
-      "author": "Learn with bidyut",
-      "date": "Nov 08, 2021",
-      "duration": "10:12",
-      "views": "2.1k",
-      "link": "https://www.youtube-nocookie.com/embed/34tjWL9wi4g",
-      "thumbnail": "https://i3.ytimg.com/vi/34tjWL9wi4g/maxresdefault.jpg"
+      "email": "a@learnwithsumit.com",
+      "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+      "name": "Akash Ahfdfdfmed",
+      "id": 6
+    },
+    {
+      "email": "b@learnwithsumit.com",
+      "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+      "name": "bidfdfdyut",
+      "id": 7
+    },
+    {
+      "email": "c@learnwithsumit.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "sifdfdkder",
+      "id": 8
+    },
+    {
+      "email": "d@learnwithsumit.com",
+      "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+      "name": "bidyfdfdut",
+      "id": 9
+    },
+    {
+      "email": "e@learnwithsumit.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "10ikfdfdder",
+      "id": 10
+    },
+    {
+      "email": "f@learnwithsumit.com",
+      "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+      "name": "bidyfdfdut",
+      "id": 11
+    },
+    {
+      "email": "gsss@learnwithsumit.com",
+      "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+      "name": "sikfdfder",
+      "id": 12
+    }
+  ],
+  "conversations": [
+    {
+      "participants": "bidyutsikder420@gmail.com-sumit@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "sumit@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "Sumit Saha",
+          "id": 1
+        }
+      ],
+      "message": "ss",
+      "timestamp": 1719058157563,
+      "id": 1
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-bidyutsikder2001@gmail.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "bidyutsikder2001@gmail.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "sikder",
+          "id": 4
+        }
+      ],
+      "message": "ddd",
+      "timestamp": 1719058168972,
+      "id": 2
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-f@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "f@learnwithsumit.com",
+          "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+          "name": "bidyut",
+          "id": 11
+        }
+      ],
+      "message": "ssd",
+      "timestamp": 1719058127099,
+      "id": 3
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-g@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "g@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "sikder",
+          "id": 12
+        }
+      ],
+      "message": "ss",
+      "timestamp": 1719058033034,
+      "id": 4
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-a@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "a@learnwithsumit.com",
+          "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+          "name": "Akash Ahfdfdfmed",
+          "id": 6
+        }
+      ],
+      "message": "dsds",
+      "timestamp": 1719058360757,
+      "id": 5
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-b@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "b@learnwithsumit.com",
+          "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+          "name": "bidfdfdyut",
+          "id": 7
+        }
+      ],
+      "message": "dfdfd",
+      "timestamp": 1719058405396,
+      "id": 6
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-d@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "d@learnwithsumit.com",
+          "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+          "name": "bidyut",
+          "id": 9
+        }
+      ],
+      "message": "ss",
+      "timestamp": 1719058076448,
+      "id": 7
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-e@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "e@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "10ikder",
+          "id": 10
+        }
+      ],
+      "message": "ss",
+      "timestamp": 1719058088593,
+      "id": 8
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-akash@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "akash@learnwithsumit.com",
+          "password": "$2a$10$CtHS.yCGS80jiuZx8yKEI.5zdiZykHF/6aPTDqpHl6ZqEFGISOHKO",
+          "name": "Akash Ahmed",
+          "id": 2
+        }
+      ],
+      "message": "ccxc",
+      "timestamp": 1719059594057,
+      "id": 9
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-sumits@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "sumits@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "Sumit Saha",
+          "id": 5
+        }
+      ],
+      "message": "ss",
+      "timestamp": 1719058245112,
+      "id": 10
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-c@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "c@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "sikder",
+          "id": 8
+        }
+      ],
+      "message": "ffdfdffdfd",
+      "timestamp": 1719058311948,
+      "id": 11
+    },
+    {
+      "participants": "bidyutsikder420@gmail.com-gsss@learnwithsumit.com",
+      "users": [
+        {
+          "email": "bidyutsikder420@gmail.com",
+          "name": "bidyut",
+          "id": 3
+        },
+        {
+          "email": "gsss@learnwithsumit.com",
+          "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+          "name": "sikfdfder",
+          "id": 12
+        }
+      ],
+      "message": "dfdfddsd",
+      "timestamp": 1719058428611,
+      "id": 12
+    }
+  ],
+  "messages": [
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "bidyutsikder2001@gmail.com",
+        "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+        "name": "sikder",
+        "id": 4
+      },
+      "message": "hi",
+      "timestamp": 1719054956793,
+      "id": 1
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "bidyutsikder2001@gmail.com",
+        "name": "sikder",
+        "id": 4
+      },
+      "receiver": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "message": "whats up",
+      "timestamp": 1719055017491,
+      "id": 2
+    },
+    {
+      "conversationId": 2,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "bidyutsikder2001@gmail.com",
+        "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+        "name": "sikder",
+        "id": 4
+      },
+      "message": "i am fine what about you",
+      "timestamp": 1719055054769,
+      "id": 3
+    },
+    {
+      "conversationId": 3,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "f@learnwithsumit.com",
+        "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+        "name": "bidyut",
+        "id": 11
+      },
+      "message": "hi",
+      "timestamp": 1719058011450,
+      "id": 4
+    },
+    {
+      "conversationId": 6,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "b@learnwithsumit.com",
+        "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+        "name": "bidyut",
+        "id": 7
+      },
+      "message": "ss",
+      "timestamp": 1719058052789,
+      "id": 5
+    },
+    {
+      "conversationId": 8,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "e@learnwithsumit.com",
+        "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+        "name": "10ikder",
+        "id": 10
+      },
+      "message": "ss",
+      "timestamp": 1719058088593,
+      "id": 6
+    },
+    {
+      "conversationId": 10,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "sumits@learnwithsumit.com",
+        "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+        "name": "Sumit Saha",
+        "id": 5
+      },
+      "message": "ss",
+      "timestamp": 1719058245112,
+      "id": 7
+    },
+    {
+      "conversationId": 6,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "b@learnwithsumit.com",
+        "password": "$2a$10$G.8IVUstExeLh3cTq/huo.KWBCkWqC2iWeKqFX1dNKUlhPBQTwke6",
+        "name": "bidfdfdyut",
+        "id": 7
+      },
+      "message": "dfdfd",
+      "timestamp": 1719058405396,
+      "id": 8
+    },
+    {
+      "conversationId": 12,
+      "sender": {
+        "email": "bidyutsikder420@gmail.com",
+        "name": "bidyut",
+        "id": 3
+      },
+      "receiver": {
+        "email": "gsss@learnwithsumit.com",
+        "password": "$2a$10$35MdTqVZ1znZq1v6elTmr.qrizmht5dBIXEJHJN0aofse4pngBhBi",
+        "name": "sikfdfder",
+        "id": 12
+      },
+      "message": "dfdfddsd",
+      "timestamp": 1719058428611,
+      "id": 9
     }
   ]
 }
