@@ -15,14 +15,13 @@ export const conversationApi = apiSlice.injectEndpoints({
             transformResponse: (apiResponse, meta) => {
                 const total = meta.response.headers.get('X-Total-Count')
 
-              //  console.log(apiResponse)
 
-                return apiResponse
 
-                // return {
-                //     data: apiResponse,
-                //     totalCount: total
-                // }
+
+                return {
+                    data: apiResponse,
+                    totalCount: total
+                }
             },
 
             async onCacheEntryAdded(arg, { updateCachedData,
@@ -46,7 +45,7 @@ export const conversationApi = apiSlice.injectEndpoints({
                     socket.on("conversation", (data) => {
 
                         updateCachedData((draft) => {
-                            const conversation = draft.find((conversation) =>
+                            const conversation = draft.data.find((conversation) =>
                                 conversation.id == data?.data?.id);
 
                             //  console.log(conversation)
@@ -80,12 +79,18 @@ export const conversationApi = apiSlice.injectEndpoints({
 
                 try {
                     const conversations = await queryFulfilled
-                    if (conversations?.length > 0) {
+                    if (conversations?.data?.length > 0) {
 
                         //update conversation cache pesimistically
                         dispatch(apiSlice.util.updateQueryData('getConversations', arg.email, (draft) => {
 
-                            return [...draft, ...conversations]
+
+
+                            return {
+                                data: [...draft.data, ...conversations.data],
+                                totalCount: Number(draft.totalCount)
+                            }
+
 
 
                         }))
@@ -154,10 +159,10 @@ export const conversationApi = apiSlice.injectEndpoints({
 
             }),
             async onQueryStarted(arg, { dispatch, getState, queryFulfilled }) {
-
+                //optimistic cache update start(it means updating cache before response comes back.)
                 const patchResult = dispatch(apiSlice.util.updateQueryData('getConversations', arg.sender, (draftConversations) => {
 
-                    const draftConversation = draftConversations.find(con => con.id == arg.id)
+                    const draftConversation = draftConversations.data.find(con => con.id == arg.id)
 
                     draftConversation.message = arg.data.message
                     draftConversation.timestamp = arg.data.timestamp
