@@ -10,6 +10,6 @@ In the project directory, you can run:
 
 ### `npm run build`
 
-### `npm run server/index`
+### `npm run ssr`
 
 #### Note (For server side rendering we need babel setup in server.Without babel we cannot do ssr.)
